@@ -1,0 +1,12 @@
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\bin\Debug\appMDIForm.exe.config
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\bin\Debug\appMDIForm.exe
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\bin\Debug\appMDIForm.pdb
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.csprojAssemblyReference.cache
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.Form1.resources
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.frmEx1.resources
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.frmEx2.resources
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.Properties.Resources.resources
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.csproj.GenerateResource.cache
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.csproj.CoreCompileInputs.cache
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.exe
+C:\Users\alexg\OneDrive\Desktop\Escolas\FIAP\1EMIA - Linguagem\appMDIForm\appMDIForm\obj\Debug\appMDIForm.pdb
