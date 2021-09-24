@@ -1,0 +1,105 @@
+            double imc, idade, sexo, Resultado;
+
+ 
+
+            if (double.TryParse(txtIMC.Text, out imc) == false || double.TryParse(txtIDADE.Text, out idade) == false)
+            {
+                MessageBox.Show("Por favor insira um imc e altura válidos", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                txtIMC.Clear();
+                txtIDADE.Clear();
+                txtIMC.Focus();
+                return;
+            };
+
+ 
+ 	    if (radMASCULINO.Checked == false && radFEMININO.Checked == false )
+            {
+               MessageBox.Show("Por favor insira um sexo válido", "Erro", MessageBoxButtons.OK, MessageBoxIcon.Error);
+               
+               return;
+            };
+            
+            if (radMASCULINO.Checked == true )
+            {
+               sexo = 1;
+            };
+            
+            else if (radFEMININO.Checked == true)
+            {
+               sexo = 0
+            };
+            
+            Resultado = (1.20 * imc) + (0.23 * idade) – (10.8 * sexo) – 5.4
+            
+            
+
+	    if(idade >=20 && idade <=29 && Resultado>=11 && Resultado<=13 )
+	    {
+	    MessageBox.Show("Gordura ideal" ,"Parabens", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else if (idade >=20 && idade <=29 && Resultado>13 )
+	    {
+	    MessageBox.Show("Gordura elevada" ,"Elevada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    else
+	    {
+	    	    MessageBox.Show("Gordura baixa" ,"Baixa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    
+	    
+	    if(idade >=30 && idade <=39 && Resultado>=12 && Resultado<=14 )
+	    {
+	    MessageBox.Show("Gordura ideal" ,"Parabens", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else if(idade >=30 && idade <=39 && Resultado>14 )
+	    {
+	    MessageBox.Show("Gordura elevada" ,"Elevada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else{
+	    	    MessageBox.Show("Gordura Baixa" ,"Baixa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    
+	    
+	    if(idade >=40 && idade <=49 && Resultado>=17 && Resultado<=23 )
+	    {
+	    MessageBox.Show("Gordura ideal" ,"Parabens", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    
+	    else if(idade >=40 && idade <=49 && Resultado>23 )
+	    {
+	    MessageBox.Show("Gordura elevada" ,"Elevada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else
+	    {
+	    MessageBox.Show("Gordura Baixa" ,"Baixa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    
+	    
+	    if(idade >=50 && idade <=59 && Resultado>=25 && Resultado<=27 )
+	    {
+	    MessageBox.Show("Gordura ideal" ,"Parabens", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else if(idade >=50 && idade <=59 && Resultado>27 )
+	    {
+	    MessageBox.Show("Gordura Elevada" ,"Elevada", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+	    else
+	    {
+	    MessageBox.Show("Gordura Baixa" ,"Baixa", MessageBoxButtons.OK, MessageBoxIcon.Information);
+	    }
+	    
+
+
+
+
+            MessageBox.Show(Resultado.ToString() ,"Resultado", MessageBoxButtons.OK, MessageBoxIcon.Information);
