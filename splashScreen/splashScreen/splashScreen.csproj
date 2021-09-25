@@ -46,6 +46,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Agua.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agua.Designer.cs">
+      <DependentUpon>Agua.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calorias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calorias.Designer.cs">
+      <DependentUpon>Calorias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Gordura.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Gordura.Designer.cs">
+      <DependentUpon>Gordura.cs</DependentUpon>
+    </Compile>
     <Compile Include="IMC.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,6 +90,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Agua.resx">
+      <DependentUpon>Agua.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calorias.resx">
+      <DependentUpon>Calorias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gordura.resx">
+      <DependentUpon>Gordura.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IMC.resx">
+      <DependentUpon>IMC.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PesoIdeal.resx">
       <DependentUpon>PesoIdeal.cs</DependentUpon>
     </EmbeddedResource>

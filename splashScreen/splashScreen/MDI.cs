@@ -48,5 +48,26 @@ namespace splashScreen
             peso.MdiParent = this;
             peso.Show();
         }
+
+        private void percentualDeGorduraCorporalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Gordura gordura = new Gordura();
+            gordura.MdiParent = this;
+            gordura.Show();
+        }
+
+        private void cadênciaIdealDeÁguaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Agua agua = new Agua();
+            agua.MdiParent = this;
+            agua.Show();
+        }
+
+        private void quantidadeDeGorduraToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Calorias calorias = new Calorias();
+            calorias.MdiParent = this;
+            calorias.Show();
+        }
     }
 }

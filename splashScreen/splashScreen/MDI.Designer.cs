@@ -124,18 +124,21 @@ namespace splashScreen
             this.percentualDeGorduraCorporalToolStripMenuItem.Name = "percentualDeGorduraCorporalToolStripMenuItem";
             this.percentualDeGorduraCorporalToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.percentualDeGorduraCorporalToolStripMenuItem.Text = "Percentual de Gordura Corporal";
+            this.percentualDeGorduraCorporalToolStripMenuItem.Click += new System.EventHandler(this.percentualDeGorduraCorporalToolStripMenuItem_Click);
             // 
             // cadênciaIdealDeÁguaToolStripMenuItem
             // 
             this.cadênciaIdealDeÁguaToolStripMenuItem.Name = "cadênciaIdealDeÁguaToolStripMenuItem";
             this.cadênciaIdealDeÁguaToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
             this.cadênciaIdealDeÁguaToolStripMenuItem.Text = "Cadência Ideal de Água";
+            this.cadênciaIdealDeÁguaToolStripMenuItem.Click += new System.EventHandler(this.cadênciaIdealDeÁguaToolStripMenuItem_Click);
             // 
             // quantidadeDeGorduraToolStripMenuItem
             // 
             this.quantidadeDeGorduraToolStripMenuItem.Name = "quantidadeDeGorduraToolStripMenuItem";
             this.quantidadeDeGorduraToolStripMenuItem.Size = new System.Drawing.Size(241, 22);
-            this.quantidadeDeGorduraToolStripMenuItem.Text = "Quantidade de gordura";
+            this.quantidadeDeGorduraToolStripMenuItem.Text = "Quantidade de calorias";
+            this.quantidadeDeGorduraToolStripMenuItem.Click += new System.EventHandler(this.quantidadeDeGorduraToolStripMenuItem_Click);
             // 
             // outrosToolStripMenuItem
             // 
